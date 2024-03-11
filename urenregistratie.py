@@ -9,7 +9,7 @@ def main():
     naam = input("Naam: ")
     project = input("Projectnaam: ")
     datum = input("Datum (dd-mm-jjjj): ")
-    uren = float(input("Gewerkte uren: "))
+    uren = input("Gewerkte uren: ")
 
     # Controleer of het CSV-bestand al bestaat, zo niet, maak er een aan en schrijf de koppen
     if not os.path.exists("urenregistratie.csv"):
