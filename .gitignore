@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# CSV-bestand
+urenregistratie.csv
+
+# IDE/bewerkingssoftware specifieke bestanden
+.vscode/
+.idea/
+*.iml
+*.ipynb_checkpoints/
